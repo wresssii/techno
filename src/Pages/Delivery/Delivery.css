@@ -1,0 +1,21 @@
+.delivery {
+  max-width: 400px;
+}
+
+.delivery_pages {
+  display: flex;
+  padding-top: 80px;
+}
+
+.delivery_txt {
+  text-align: center;
+  padding-top: 10px;
+  font-weight: 600;
+  font-size: 23px;
+}
+
+.delivery_tit {
+  font-weight: 900;
+  font-size: 35px;
+  text-align: center;
+}
