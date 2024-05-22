@@ -1,0 +1,24 @@
+.contact_tit {
+  font-weight: 900;
+  font-size: 80px;
+}
+
+.contact_img {
+  max-width: 350px;
+  padding-top: 25px;
+}
+
+.contact_txt {
+  font-size: 25px;
+  font-weight: 600;
+  padding-top: 25px;
+}
+
+.contact_num {
+  font-size: 20px;
+  padding-top: 15px;
+}
+
+.contact__pages {
+  padding-top: 45px;
+}
