@@ -1,16 +1,27 @@
 .NotFound{
   text-align: center;
   line-height: 250px;
-  font-size: 200px;
-  font-weight: 900;
+  font-size: 150px;
 }
+
+.notfound {
+ max-width: 800px;
+ padding-top: 100px;
+ padding-left: 50px;
+}
+
 .NotFound_txt{
   padding-bottom: 50px;
+  font-weight: 600;
+  padding-top: 50px;
+  padding-right: 90px;
   text-align: center;
 }
+
 .NotFound_txt a{
   display: inline-block;
   margin-left: 10px;
   text-decoration: underline;
   font-weight: 600;
+  font-weight: 700;
 }
