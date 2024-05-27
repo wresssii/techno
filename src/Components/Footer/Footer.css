@@ -1,0 +1,28 @@
+.footerimg {
+  height: 560px;
+  width: 600px;
+  padding-right: 20px;
+}
+
+.footer_icons {
+
+}
+
+.footer_tit {
+  padding-left: 20px;
+}
+
+.map {
+  padding-top: 60px;
+  height: 550px;
+}
+
+.footer_icon {
+  width: 90px;
+  padding-left: 20px;
+  
+}
+
+footer {
+  display: flex;
+}
