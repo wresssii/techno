@@ -8,21 +8,57 @@
 
 }
 
-.footer_tit {
-  padding-left: 20px;
-}
-
-.map {
-  padding-top: 60px;
-  height: 550px;
-}
-
-.footer_icon {
-  width: 90px;
-  padding-left: 20px;
-  
-}
-
 footer {
-  display: flex;
+  background: #fff7f7;
+}
+
+.foot_in {
+  background: #fff7f7;
+  padding-top: 35px;
+  padding-bottom: 40px;
+}
+
+.footer_tit {
+  padding-left: 10px;
+  font-size: 18px;
+  font-family: Montserrat Alternates;
+}
+
+.foot_block{
+  width: 30%;
+
+}
+.footer_icons{
+  width: 150px;
+  padding-top: 20px;
+}
+.footer_icons a{
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.foot_tit {
+  font-size: 14px;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.foot_txt {
+  font-size: 18px;
+  font-weight: 400;
+  color: #000000;
+  padding-left: 15px;
+  font-family: Hubballi;
+}
+
+.footer_txt {
+  font-size: 19px;
+  font-family: Hubballi;
+}
+
+.footer_list {
+  text-align-last: left;
+  padding-left: 172px;
 }
