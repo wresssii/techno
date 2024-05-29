@@ -2,20 +2,49 @@
   max-width: 400px;
 }
 
+.delivery_left {
+  width: 50%;
+}
+
+.delivery_right {
+  width: 50%;
+}
+
 .delivery_pages {
   display: flex;
-  padding-top: 80px;
+  padding-top: 60px;
 }
 
 .delivery_txt {
   text-align: center;
-  padding-top: 10px;
+  padding-top: 22px;
   font-weight: 600;
   font-size: 23px;
+  font-family: Darker Grotesque;
+}
+
+.delivery_text {
+  padding-top: 20px;
+  padding-bottom: 25px;
 }
 
 .delivery_tit {
   font-weight: 900;
-  font-size: 35px;
+  font-size: 50px;
   text-align: center;
+  font-family: Sniglet;
+}
+
+.delivery_cont {
+  background: #000000;
+  border-radius: 122px;
+  color: #ffff;
+  padding: 10px 25px 10px 25px;
+  transition: 0.5s;
+  font-family: Sniglet;
+  margin-left: 230px;
+}
+
+.delivery_cont:hover {
+  background: #440458e0;
 }
