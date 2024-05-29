@@ -1,0 +1,43 @@
+.card {
+  width: 24%;
+	transition: 0.5s;
+	border: 1px solid var(--Gray, #f6f6f6);
+	background: #fff;
+	margin-bottom: 30px;
+  border-radius: 15px;
+}
+
+.card:hover {
+  box-shadow: 0px 0px 18px 0px rgba(85, 83, 83, 0.25);
+}
+
+.card_img {
+ align-items: center;
+ justify-content: center;
+}
+
+.card_tit {
+  padding: 10px;
+}
+
+.card_txt {
+  padding: 10px;
+  padding-top: 8px;
+}
+
+@media (max-width: 990px) {
+  .card {
+    width: 32.3%;
+  }
+}
+
+@media (max-width: 780px) {
+  .card {
+    width: 48%;
+  }
+}
+@media (max-width: 420px) {
+  .card {
+    width: 100%;
+  }
+}
