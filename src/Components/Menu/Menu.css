@@ -1,12 +1,13 @@
 .Menu li{
-  text-transform: uppercase;
   padding: 3px 10px;
   font-weight: 600;
+  font-size: 18px;
+  font-family: Montserrat Alternates;
   transition: 0.3s;
   border-bottom: 2px solid transparent;
 }
 .Menu li:hover{
-  border-color: #333;
+  border-color: #f00909;
 }
 .Foot_menu{
   width: calc(100% - 250px);

@@ -28,14 +28,21 @@
   color: black;
   text-decoration: none;
   font-size: 20px;
+  font-family: Montserrat Alternates;
   transition: all 100ms linear;
 }
+
 .product a:hover {
-  color: rgb(255, 130, 151);
+  color: rgb(255, 195, 205);
 }
+
 .ProductList span {
   font-size: 20px;
+  font-family: Chango;
+  font-size: 20px;
+
 }
+
 .ProductList .text {
   max-width: 200px;
   height: 90px;
@@ -44,3 +51,4 @@
 .ProductList .actions {
   margin: 0 0 10px 10px;
 }
+

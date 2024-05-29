@@ -49,3 +49,24 @@
 .about_img {
   width: 90%;
 }
+
+@media (max-width: 560px) {
+  .about_card,
+  .delivery_pages{
+    flex-wrap: wrap;
+  }
+  .about_card > div,
+  .delivery_pages > div{
+    width: 100%;
+  }
+  .about_right,
+  .delivery_right{
+    padding-left: 0;
+    padding-top: 15px;
+  }
+  .delivery_cont{
+    display: block;
+    margin-left: 0!important;
+    text-align: center;
+  }
+}

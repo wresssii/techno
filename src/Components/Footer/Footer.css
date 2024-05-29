@@ -19,9 +19,13 @@ footer {
 }
 
 .footer_tit {
-  padding-left: 10px;
+  display: block;
   font-size: 18px;
-  font-family: Montserrat Alternates;
+  font-family: 'Montserrat Alternates';
+  text-align: left;
+}
+.footer_nav{
+  padding-left: 40px;
 }
 
 .foot_block{
@@ -59,6 +63,18 @@ footer {
 }
 
 .footer_list {
-  text-align-last: left;
-  padding-left: 172px;
+  text-align: left;
+}
+
+@media (max-width: 560px) {
+  .foot_block{
+    width: 48%;
+  }
+  .foot_block:last-child{
+    width: 100%;
+    margin-top: 30px;
+  }
+  .footer_nav{
+    padding-left: 20px;
+  }
 }

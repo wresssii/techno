@@ -2,18 +2,18 @@
   white-space: nowrap;
 }
 .Auth .blueBtn {
-  background-color: #021437;
+  background-color: #000000;
   border: 0;
   padding: 5px 10px;
   color: white;
-  border-radius: 5px;
-  font-family: inherit;
+  border-radius: 100px;
+  font-family: Sniglet;
   margin-left: 7px;
   transition: all 100ms linear;
   cursor: pointer;
 }
 .Auth .blueBtn:hover {
-  background-color: #2956b1;
+  background-color: #370247e3;
 }
 .Auth .icon {
   background-color: transparent;
