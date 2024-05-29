@@ -16,8 +16,9 @@
 
 .Contact_tit {
   padding-top: 120px;
+  text-align: center;
   font-size: 51px;
-  font-family: Sniglet;
+  font-family: 'Sniglet';
 }
 
 .cont_icons {
@@ -37,17 +38,13 @@
 .cont_txt__one {
   font-size: 18px;
   font-family: Montserrat Alternates;
-  left: 100px;
-  top: 43px;
-  position: absolute;
+  margin: 41px 69px 0;
 }
 
 .cont_txt__two {
   font-size: 18px;
   font-family: Montserrat Alternates;
-  left: 100px;
-  top: 120px;
-  position: absolute;
+  margin: 41px 43px 0;
 }
 
 .cont_txt__three {
@@ -74,3 +71,8 @@
   position: absolute;
 }
 
+
+
+@media (max-width: 990px) {
+
+}

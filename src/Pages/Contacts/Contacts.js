@@ -21,8 +21,8 @@ function Contacts() {
                 <img src={hom} alt="contact" className="cont_icon" />
       </Link>
       <Link to="#" target="_blank" className="cont_txt__one">Contact Us</Link>
-
       </div>
+      
       <div className="contact_icon flex">
       <Link to="https://t.me/+996771389382" target="_blank">
                 <img src={tg} alt="contact" className="cont_icon" />
