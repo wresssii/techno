@@ -1,10 +1,5 @@
 import './Card.css';
-import slide1 from '../../img/slider1.jpg'
-import slide2 from '../../img/slider1.jpg'
-import slide3 from '../../img/slider1.jpg'
-import slide4 from '../../img/slider1.jpg'
-import slide5 from '../../img/slider1.jpg'
-
+import slide1 from '../../img/slider1.jpg';
 
 function Card() {
   return (
@@ -14,7 +9,6 @@ function Card() {
     <hr />
     <p className="card_txt">The Macbook will finally have a FaceID system or its analogue - evidence of this has been found in the bowels of the MacOS7 system..</p>
    </div>
-
 
   );
 }
