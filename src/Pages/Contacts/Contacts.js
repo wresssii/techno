@@ -1,34 +1,58 @@
 import './Contacts.css';
+import контакты from '../../img/контакты.webp';
+import tg from '../../img/tg.jpg';
+import ggl from '../../img/ggl.jpg';
+import tel from '../../img/tel.jpg';
+import loc from '../../img/loc.jpg';
+import hom from '../../img/hom.jpg'
+import desk from '../../img/desk.webp'
 import { Link } from 'react-router-dom';
-import contact from '../../img/contact.webp'
 
 function Contacts() {
   return (
-    <section className="Contacts">
-      <div className="contact_pages">
-        <h2 className="contact_tit">Contact</h2>
-        <hr />
-        <div className="contact-pages flex">
-          <div className="contact_text">
-        <p className="contact_txt">Our contacts:</p>
-        {/* <Link className="" to="https://wa.me/<0771389382>">0771 389 382</Link>
-        <Link className="" to="/">0771 389 382</Link> */}
-          <p className="contact_num">+996 771 389 382</p>
-          <p className="contact_num">0771 389 382</p>
-        </div>
-        <img src={contact} alt="contact" className="contact_img" />
-        </div>
-        <div className="contact__pages flex">
-        <iframe className="map"
-			src="https://yandex.ru/map-widget/v1/?um=constructor%3Ac0ad8798afd38aa5bf6025c69a1103160f4dac4f5dd4229cd187b209152f518a&amp;source=constructor"
-			width="50%" height="350" frameborder="0" ></iframe>
-        <div className="contact_text">
-        <p className="contact_txt">Location:</p>
-          <p className="contact_num">c.Karakol st.Ch.Aitmatova 125</p>
-        </div>
-    </div>
+    <section className="Contact">
+      <div className="contact_in flex">
+      <div className="contact_img">
+      <img src={контакты} alt="contact"  />
+      <img src={desk} alt="contact" className="contactdesc" />
+      <div className="cont_icons">
+      <div className="contact_icon flex">
+      <Link to="#" target="_blank">
+                <img src={hom} alt="contact" className="cont_icon" />
+      </Link>
+      <Link to="#" target="_blank" className="cont_txt__one">Contact Us</Link>
+
       </div>
-    </section>
+      <div className="contact_icon flex">
+      <Link to="https://t.me/+996771389382" target="_blank">
+                <img src={tg} alt="contact" className="cont_icon" />
+      </Link>
+      <Link to="https://t.me/+996771389382" target="_blank" className="cont_txt__two">+996 771 389 382</Link>
+
+      </div>
+      <div className="contact_icon flex">
+      <Link to="#" target="_blank">
+                <img src={ggl} alt="contact" className="cont_icon" />
+      </Link>
+      <Link to="www.google.com" target="_blank" className="cont_txt__three">aparovasyrdykan@gmail.com</Link>
+      </div>
+      <div className="contact_icon flex">
+      <Link to="tel:+996771389382" target="_blank">
+                <img src={tel} alt="contact" className="cont_icon" />
+      </Link>
+      <Link to="tel:+996771389382" target="_blank" className="cont_txt__four">0771 389 382</Link>
+      </div>
+      <div className="contact_icon flex">
+      <Link to="https://www.google.com/maps?ll=широта,долгота" target="_blank">
+                <img src={loc} alt="contact" className="cont_icon" />
+      </Link>
+      <Link to="https://www.google.com/maps?ll=широта,долгота" target="_blank" className="cont_txt__five">c.Karakol st.Kydyr-Ake 11</Link>
+      </div>
+      </div>
+      </div>
+      <h2 className="Contact_tit">Contact Us</h2>
+      </div>
+      </section>
   );
 }
 

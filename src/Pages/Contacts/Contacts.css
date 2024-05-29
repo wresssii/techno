@@ -1,24 +1,76 @@
-.contact_tit {
-  font-weight: 900;
-  font-size: 80px;
-}
-
 .contact_img {
-  max-width: 350px;
-  padding-top: 25px;
+  width: 700px;
+  position: relative;
 }
 
-.contact_txt {
-  font-size: 25px;
-  font-weight: 600;
-  padding-top: 25px;
+.contactdesc {
+  width: 660px;
+  position: absolute;
+  height: 600px;
+  top: 240px;
+  left: 310px;
 }
 
-.contact_num {
-  font-size: 20px;
-  padding-top: 15px;
+.Contact {
 }
 
-.contact__pages {
-  padding-top: 45px;
+.Contact_tit {
+  padding-top: 120px;
+  font-size: 51px;
+  font-family: Sniglet;
 }
+
+.cont_icons {
+  position: absolute;
+  top: 320px;
+  left: 400px;
+}
+
+.cont_icon {
+  border-radius:75px;
+  width: 60px;
+  height: 60px;
+  margin-top: 22px;
+}
+
+
+.cont_txt__one {
+  font-size: 18px;
+  font-family: Montserrat Alternates;
+  left: 100px;
+  top: 43px;
+  position: absolute;
+}
+
+.cont_txt__two {
+  font-size: 18px;
+  font-family: Montserrat Alternates;
+  left: 100px;
+  top: 120px;
+  position: absolute;
+}
+
+.cont_txt__three {
+  font-size: 18px;
+  font-family: Montserrat Alternates;
+  left: 100px;
+  top: 205px;
+  position: absolute;
+}
+
+.cont_txt__four {
+  font-size: 18px;
+  font-family: Montserrat Alternates;
+  left: 100px;
+  top: 290px;
+  position: absolute;
+}
+
+.cont_txt__five {
+  font-size: 18px;
+  font-family: Montserrat Alternates;
+  left: 100px;
+  top: 360px;
+  position: absolute;
+}
+
